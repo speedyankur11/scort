@@ -22139,7 +22139,7 @@ body.active-side-header.slide-right .page_header_side {
 
 @media (max-width: 992px) {
 	.page_header_side a.logo {
-		min-width: 200px;
+		min-width: 100px;
 	}
 }
 
