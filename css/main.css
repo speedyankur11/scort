@@ -25445,6 +25445,46 @@ img.absolute_image {
 	width: 20px;
 }
 
+
+.btn-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #25D366;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.btn-whatsapp:hover {
+  background-color: #1EBE5D;
+  transform: scale(1.03);
+}
+
+/* Make it responsive for small devices */
+@media (max-width: 480px) {
+  .btn-whatsapp {
+    font-size: 14px;
+    padding: 9px 18px;
+  }
+
+  .btn-whatsapp img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+
+
+
 .checkbox-slider--b-flat input:checked+span:after {
 	content: "";
 	margin-left: 20px;
